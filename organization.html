@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Organization Registration</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <header class="header">
+
+        <a href="insert.html" class="back-button">
+            ← Back
+        </a>
+
+        <div class="header-title">
+            ORGANIZATION
+        </div>
+
+    </header>
+
+
+
+    <main class="form-page">
+
+        <div class="form-box">
+
+            <h1>
+                Organization Registration
+            </h1>
+
+            <p>
+                Enter organization information below.
+            </p>
+
+
+            <form>
+
+
+                <div class="form-group">
+
+                    <label for="organization_name">
+                        Organization Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="organization_name"
+                        name="organization_name"
+                        placeholder="Enter organization name"
+                        required
+                    >
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="organization_type">
+                        Organization Type
+                    </label>
+
+                    <select
+                        id="organization_type"
+                        name="organization_type"
+                    >
+
+                        <option value="">
+                            Select Type
+                        </option>
+
+                        <option value="ngo">
+                            NGO
+                        </option>
+
+                        <option value="government">
+                            Government
+                        </option>
+
+                        <option value="private">
+                            Private Organization
+                        </option>
+
+                        <option value="international">
+                            International Organization
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="contact_person">
+                        Contact Person
+                    </label>
+
+                    <input
+                        type="text"
+                        id="contact_person"
+                        name="contact_person"
+                        placeholder="Enter contact person's name"
+                    >
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="phone">
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter phone number"
+                    >
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter email address"
+                    >
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="address">
+                        Address
+                    </label>
+
+                    <textarea
+                        id="address"
+                        name="address"
+                        rows="4"
+                        placeholder="Enter organization address"
+                    ></textarea>
+
+                </div>
+
+
+
+                <div class="form-buttons">
+
+                    <button type="submit">
+                        Save Organization
+                    </button>
+
+                    <button type="reset">
+                        Clear
+                    </button>
+
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>

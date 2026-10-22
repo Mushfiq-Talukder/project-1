@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Relief Program</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <header class="header">
+
+        <a href="insert.html" class="back-button">
+            ← Back
+        </a>
+
+        <div class="header-title">
+            RELIEF PROGRAM
+        </div>
+
+    </header>
+
+
+
+    <main class="form-page">
+
+        <div class="form-box">
+
+            <h1>
+                Create Relief Program
+            </h1>
+
+            <p>
+                Enter information about the relief program.
+            </p>
+
+
+            <form>
+
+
+                <div class="form-group">
+
+                    <label for="program_name">
+                        Program Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="program_name"
+                        name="program_name"
+                        placeholder="Enter program name"
+                        required
+                    >
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="organization">
+                        Organization
+                    </label>
+
+                    <select
+                        id="organization"
+                        name="organization"
+                    >
+
+                        <option value="">
+                            Select Organization
+                        </option>
+
+                        <option value="org1">
+                            Organization 1
+                        </option>
+
+                        <option value="org2">
+                            Organization 2
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="start_date">
+                        Start Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="start_date"
+                        name="start_date"
+                    >
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="end_date">
+                        End Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="end_date"
+                        name="end_date"
+                    >
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="location">
+                        Location
+                    </label>
+
+                    <input
+                        type="text"
+                        id="location"
+                        name="location"
+                        placeholder="Enter program location"
+                    >
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="description">
+                        Description
+                    </label>
+
+                    <textarea
+                        id="description"
+                        name="description"
+                        rows="5"
+                        placeholder="Enter program description"
+                    ></textarea>
+
+                </div>
+
+
+
+                <div class="form-buttons">
+
+                    <button type="submit">
+                        Save Program
+                    </button>
+
+                    <button type="reset">
+                        Clear
+                    </button>
+
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>

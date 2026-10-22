@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Beneficiary Registration</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <header class="header">
+
+        <a href="insert.html" class="back-button">
+            ← Back
+        </a>
+
+        <div class="header-title">
+            BENEFICIARY
+        </div>
+
+    </header>
+
+
+
+    <main class="form-page">
+
+        <div class="form-box">
+
+            <h1>
+                Beneficiary Registration
+            </h1>
+
+            <p>
+                Enter beneficiary information below.
+            </p>
+
+
+            <form>
+
+
+                <!-- Full Name -->
+
+                <div class="form-group">
+
+                    <label for="full_name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="full_name"
+                        name="full_name"
+                        placeholder="Enter full name"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- NID -->
+
+                <div class="form-group">
+
+                    <label for="nid">
+                        NID / Registration No.
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nid"
+                        name="nid"
+                        placeholder="Enter NID or registration number"
+                    >
+
+                </div>
+
+
+
+                <!-- Family Size -->
+
+                <div class="form-group">
+
+                    <label for="family_size">
+                        Family Size
+                    </label>
+
+                    <input
+                        type="number"
+                        id="family_size"
+                        name="family_size"
+                        min="1"
+                        placeholder="Enter family size"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- Ward -->
+
+                <div class="form-group">
+
+                    <label for="ward">
+                        Ward
+                    </label>
+
+                    <input
+                        type="text"
+                        id="ward"
+                        name="ward"
+                        placeholder="Enter ward number"
+                    >
+
+                </div>
+
+
+
+                <!-- Area -->
+
+                <div class="form-group">
+
+                    <label for="area">
+                        Area
+                    </label>
+
+                    <input
+                        type="text"
+                        id="area"
+                        name="area"
+                        placeholder="Enter area"
+                    >
+
+                </div>
+
+
+
+                <!-- Category -->
+
+                <div class="form-group">
+
+                    <label for="category">
+                        Category
+                    </label>
+
+                    <select id="category"
+                            name="category">
+
+                        <option value="">
+                            Select Category
+                        </option>
+
+                        <option value="general">
+                            General
+                        </option>
+
+                        <option value="emergency">
+                            Emergency
+                        </option>
+
+                        <option value="priority">
+                            Priority
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- Status -->
+
+                <div class="form-group">
+
+                    <label for="status">
+                        Status
+                    </label>
+
+                    <select id="status"
+                            name="status">
+
+                        <option value="active">
+                            Active
+                        </option>
+
+                        <option value="inactive">
+                            Inactive
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- Buttons -->
+
+                <div class="form-buttons">
+
+                    <button type="submit">
+                        Save Beneficiary
+                    </button>
+
+                    <button type="reset">
+                        Clear
+                    </button>
+
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>
